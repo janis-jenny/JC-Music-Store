@@ -1,1 +1,1 @@
-# J's Music Store
+# JC Music Store
