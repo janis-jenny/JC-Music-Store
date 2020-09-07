@@ -60,7 +60,20 @@ for any other pallette of choice */
 }
 
 .bttn-icon i {
-  color: var(--color5);
+  color: var(--color2);
+}
+
+/*
+===========================================================
+                     MEDIA QUERIES
+ ==========================================================
+*/
+
+.sales-operation {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: var(--color2);
 }
 
 /*
