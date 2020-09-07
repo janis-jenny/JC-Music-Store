@@ -26,7 +26,6 @@ for any other pallette of choice */
 
 .navbar {
   width: 100%;
-  height: 60px;
   background-image: linear-gradient(to bottom, #d35266, #b13d48 60%, #b13a46 18%);
   font-size: 0.85rem;
 }
@@ -40,8 +39,7 @@ for any other pallette of choice */
   background: url(../images/bg-image.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
-  width: 100%;
-  height: 690px; /* the img goes up after applied fixed-top class"*/
+  height: 700px;
 }
 
 /*
@@ -65,7 +63,7 @@ for any other pallette of choice */
 
 /*
 ===========================================================
-                     MEDIA QUERIES
+                     Main
  ==========================================================
 */
 
@@ -76,6 +74,11 @@ for any other pallette of choice */
   background-color: var(--color2);
 }
 
+.img-shipping img {
+  width: 89px;
+  height: 89px;
+}
+
 /*
 ===========================================================
                      MEDIA QUERIES
@@ -83,8 +86,8 @@ for any other pallette of choice */
 */
 
 @media screen and (min-width: 768px) {
-
-}
+  
+ } 
 
 
 

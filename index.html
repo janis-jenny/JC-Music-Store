@@ -8,6 +8,15 @@
   <link rel="stylesheet" href="css/normalizer.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/stylesheet.css" />
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
@@ -15,61 +24,61 @@
 </head>
 
 <body class="bg-body">
-  <div class="main-container">
-    <nav class="row navbar container-fluid m-0">
-
-      <span class="logo-img col-1 col-md-1 col-lg-1 d-flex justify-content-center">
+  <div class="main-container w-100 px-0">
+    <nav class="row navbar container-fluid mx-0 p-0 w-100 fixed-top">
+      <div class="logo-img col-1 d-flex justify-content-center">
         <img src="./images/logo.png" alt="Logo">
-      </span>
-      <ul class="col-5 col-md-5 col-lg-5 d-flex justify-content-start pl-0 pl-md-0 pr-2">
-        <li Class="px-2"><a href="#">Shop by category ></a></li>
+      </div>
+      <ul class="col-5 d-flex justify-content-start p-0">
+        <li Class="px-2"><a href="#">Shop by category></a></li>
         <li Class="px-2 d-none d-lg-block"><a href="#">Videos</a></li>
         <li Class="px-2 d-none d-lg-block"><a href="#">Support</a></li>
       </ul>
-      <ul class="col-6 col-md-6 col-lg-6 d-flex justify-content-end py-2">
-        <li Class="px-2 border-right border-white">
-          <a href="#"><i class="fas fa-user px-2"></i>
+      <ul class="col-6 d-flex justify-content-end p-0">
+        <li Class="px-2">
+          <a class="d-flex mt-2" href="#"><i class="fas fa-user px-3 py-2"></i>
             <p class="d-none d-lg-block">Account</p>
           </a>
         </li>
-        <li Class=" px-2"><a href="#"><i class="fas fa-shopping-cart px-2"></i>
+        <li Class="px-2"><a class="d-flex mt-2" href="#"><i class="fas fa-shopping-cart px-3 py-2"></i>
             <p class="d-none d-lg-block">Cart</p>
           </a></li>
-        <li Class="px-2 d-none d-md-block d-lg-none"><a href="#"><i class="fas fa-bars"></i></a></li>
+        <li Class="px-2 d-none d-md-block d-lg-none"><a class="d-flex mt-2" href="#"><i
+              class="fas fa-bars px-3 py-2"></i></a></li>
       </ul>
     </nav>
-    <main class="container-fluid">
-      <section class="row main-bg m-0 mx-0 px-0">
-        <div class="col-12 d-flex justify-content-center">
-          <img class="logo-img-1" src="./images/logo.png" alt="logo">
-          <h2 class="h3 logo-name font-weight-bold text-white p-1">JC Music Store</h2>
+    <header class="row container-fluid main-bg m-0 px-0">
+      <div class="col-12 d-flex justify-content-center align-items-center p-0 ">
+        <img class="logo-img-1 pr-1" src="./images/logo.png" alt="logo">
+        <h2 class="h3 logo-name font-weight-bold text-white p-1">JC Music Store</h2>
+      </div>
+      <div class="searchbox col-12 d-flex flex-column justify-content-center p-0">
+        <h5 class="text-white text-center p-1">Hi. What are you looking for today?</h5>
+        <div class="row d-flex justify-content-center">
+          <input class="bg-transparent border-white w-25" type="text" placeholder="Search" />
+          <button type="button" class="bttn-icon p-2 btn-outline-light bg-gradient-light"><i
+              class="fas fa-search"></i></button>
         </div>
-        <div class="searchbox col-12 d-flex flex-column justify-content-center">
-          <h5 class="text-white text-center p-1">Hi. What are you looking for today?</h5>
-          <div class="row d-flex justify-content-center">
-            <input class="bg-transparent border-white w-25" type="text" placeholder="Search" />
-            <button type="button" class="bttn-icon p-2 btn-outline-light bg-gradient-light"><i
-                class="fas fa-search"></i></button>
-          </div>
-        </div>
-      </section>
-      <section class="row d-flex flex-column">
-        <div class="sales-operations col-sd-12 flex-column">
+      </div>
+    </header>
+    <main class="container-fluid px-0">
+      <section class="row d-flex flex-column m-0 px-0 mt-4">
+        <div class="sales-operations col-12 px-0">
           <h2 class="text-center"> THREE GREAT WAYS TO SHOP WITH US</h2>
           <div class="row text-center">
-            <p class="col-sd-12 col-md-4">We are open for sales, repairs and rentals.</p>
-            <p class="col-sd-12 col-md-4">Online Shopping with Free Shipping (Over $99)</p>
-            <p class="col-sd-12 col-md-4">Curb Side Shopping</p>
+            <p class="col-12 col-md-3">We are open for sales, repairs and rentals.</p>
+            <p class="col-12 col-md-3">Online Shopping with Free Shipping (Over $99)</p>
+            <p class="col-12 col-md-3">Curb Side Shopping</p>
           </div>
         </div>
-        <div class="bttn-learn col-sd-12 d-flex justify-content-center">
-          <button type="button" class="btn-danger w-25 rounded">Learn More</button>
+        <div class="bttn-learn col-12 d-flex justify-content-center mx-0 px-0">
+          <button type="button" class="btn-danger w-25 rounded px-0 py-1">Learn More</button>
         </div>
       </section>
-      <section class="row">
-        <div class="shipping">
-          <ul class="col-12 col-md-6 col-lg-4 d-flex flex-sd-column justify-content-center">
-            <li class=""><a href="#">
+      <section class="row shipping mx-0">
+        <div class="w-100 d-flex justify-content-center p-0 mx-0 my-4">
+          <ul class="col-12 col-md-6 col-lg-3 flex-sd-column flex-md-row">
+            <li class="col-12 col-md-6 col-lg-3"><a class="img-shipping" href="#">
                 <img
                   src="https://cdn.shortpixel.ai/spai/w_89+q_glossy+ret_img+to_webp/https://www.theartsmusicstore.com/wp-content/uploads/2020/02/dedicated-sales-person.png"
                   alt="salesperson-logo">
@@ -77,7 +86,7 @@
               <p>Dedicated Salesperson</p>
               <p><small>Questions? Buy with confidence with our expert team</small></p>
             </li>
-            <li class=""><a href="#">
+            <li class=""><a class="img-shipping" href="#">
                 <img
                   src="https://cdn.shortpixel.ai/spai/w_89+q_glossy+ret_img+to_webp/https://www.theartsmusicstore.com/wp-content/uploads/2020/02/fast-free-shipping.png"
                   alt="shipping-logo">
@@ -85,7 +94,7 @@
               <p>Fast & Free Shipping</p>
               <p><small>on all orders over $99</small></p>
             </li>
-            <li class=""><a href="#">
+            <li class=""><a class="img-shipping" href="#">
                 <img
                   src="https://cdn.shortpixel.ai/spai/w_89+q_glossy+ret_img+to_webp/https://www.theartsmusicstore.com/wp-content/uploads/2020/02/easy-return.png"
                   alt="return-logo">
@@ -93,7 +102,7 @@
               <p>Easy Returns</p>
               <p><small>100% Money back guarantee</small></p>
             </li>
-            <li class=""><a href="#">
+            <li class=""><a class="img-shipping" href="#">
                 <img
                   src="https://cdn.shortpixel.ai/spai/w_89+q_glossy+ret_img+to_webp/https://www.theartsmusicstore.com/wp-content/uploads/2020/02/price-match-guarantee.png"
                   alt="price-logo">
@@ -101,7 +110,7 @@
               <p>Price Match Guarantee</p>
               <p><small>Found a better price in Canada? We’ll match it!</small></p>
             </li>
-            <li class=""><a href="#">
+            <li class=""><a class="img-shipping" href="#">
                 <img
                   src="https://cdn.shortpixel.ai/spai/w_89+q_glossy+ret_img+to_webp/https://www.theartsmusicstore.com/wp-content/uploads/2020/02/instant-financing.png"
                   alt="financing-logo">
@@ -109,7 +118,7 @@
               <p>Instant Financings</p>
               <p><small>Get approved in seconds</small></p>
             </li>
-            <li class=""><a href="#">
+            <li class=""><a class="img-shipping" href="#">
                 <img
                   src="https://cdn.shortpixel.ai/spai/w_89+q_glossy+ret_img+to_webp/https://www.theartsmusicstore.com/wp-content/uploads/2020/02/buy-with-confidence.png"
                   alt="hands-logo">
@@ -121,7 +130,52 @@
         </div>
       </section>
       <section class="category">
-
+        <div class="row d-flex">
+          <div class="electric-guitars col-sm-12 col-md-4">
+            <img src="./images/electric guitars.jpg" alt="electric-guitar" />
+            <div class="category-info position-relative">
+              <span class="position-absolute align-content-center">
+                <h3 class="">ELECTRIC GUITARS</h3>
+                <button type="button" class="">Shop now</button>
+              </span>
+            </div>
+          </div>
+          <div class="pedals col-sm-12 col-md-4">
+            <img src="./images/pedals.jpg" alt="pedal" />
+            <div class="category-info">
+              <h3 class="">PEDALS</h3>
+              <button type="button" class="">Shop now</button>
+            </div>
+          </div>
+          <div class="acustic-guitars col-sm-12 col-md-4">
+            <img src="./images/acustic guitars.jpg" alt="acustic-guitar" />
+            <div class="category-info">
+              <h3 class="">ACOUSTIC GUITARS</h3>
+              <button type="button" class="">Shop now</button>
+            </div>
+          </div>
+          <div class="bass col-sm-12 col-md-4">
+            <img src="./images/bass.jpg" alt="bass" />
+            <div class="category-info">
+              <h3 class="">BASS</h3>
+              <button type="button" class="">Shop now</button>
+            </div>
+          </div>
+          <div class="keyboards col-sm-12 col-md-4">
+            <img src="./images/keyboards.jpg" alt="keyboards" />
+            <div class="category-info">
+              <h3 class="">kEYBOARDS</h3>
+              <button type="button" class="">Shop now</button>
+            </div>
+          </div>
+          <div class="drum-kits col-sm-12 col-md-4">
+            <img src="./images/drum kits.jpg" alt="drums" />
+            <div class="category-info">
+              <h3 class="">DRUM KITS.</h3>
+              <button type="button" class="">Shop now</button>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="bottom-section">
         <div></div>
