@@ -41,9 +41,27 @@ for any other pallette of choice */
   background-size: cover;
   background-position: center center;
   width: 100%;
-  height: 690px; /* the img goes up after applied fixed-top class"
+  height: 690px; /* the img goes up after applied fixed-top class"*/
 }
 
+/*
+===========================================================
+                        MAIN
+ ==========================================================
+*/
+
+.logo-img-1 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.logo-name {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.bttn-icon i {
+  color: var(--color5);
+}
 
 /*
 ===========================================================
