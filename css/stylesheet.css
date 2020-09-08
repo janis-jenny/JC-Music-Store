@@ -26,13 +26,13 @@ for any other pallette of choice */
 
 .navbar {
   width: 100%;
-  background-image: linear-gradient(to bottom, #d35266, #b13d48 60%, #b13a46 18%);
+  background-image: linear-gradient(to top, #3b3a3b, #3b393a, 60%, #3d393a 40%, #585858);
   font-size: 0.85rem;
 }
 
 .logo-img img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 50px;
+  height: 50px;
 }
 
 .main-bg {
@@ -44,14 +44,9 @@ for any other pallette of choice */
 
 /*
 ===========================================================
-                        MAIN
+                        HEADER
  ==========================================================
 */
-
-.logo-img-1 {
-  width: 2.5rem;
-  height: 2.5rem;
-}
 
 .logo-name {
   font-family: 'Balsamiq Sans', cursive;
@@ -67,9 +62,9 @@ for any other pallette of choice */
  ==========================================================
 */
 
-.sales-operation {
-  width: 100%;
-  height: 500px;
+.sale-info {
+  
+  height: 300px;
   margin: 0 auto;
   background-color: var(--color2);
 }
@@ -79,6 +74,7 @@ for any other pallette of choice */
   height: 89px;
 }
 
+
 /*
 ===========================================================
                      MEDIA QUERIES
@@ -86,8 +82,25 @@ for any other pallette of choice */
 */
 
 @media screen and (min-width: 768px) {
-  
+  .category-info h3 {
+    top: 0;
+    left: 140px;
+  }
  } 
+
+@media screen and (min-width: 960px) {
+  .sale-info p {
+    font-size: 20px;
+  }
+
+  .checks {
+    margin-left: 12px;
+  } 
+
+  .bttn-learn {
+    font-size: 20px;
+  }
+} 
 
 
 
