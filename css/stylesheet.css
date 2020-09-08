@@ -26,13 +26,20 @@ for any other pallette of choice */
 
 .navbar {
   width: 100%;
+  height: 70px;
   background-image: linear-gradient(to top, #3b3a3b, #3b393a, 60%, #3d393a 40%, #585858);
   font-size: 0.85rem;
+
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
 }
 
 .logo-img img {
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
 }
 
 .main-bg {
@@ -41,6 +48,12 @@ for any other pallette of choice */
   background-position: center center;
   height: 700px;
 }
+
+/* .searchbox {
+  top: calc(50%-350px);
+  left: calc(50%-512px);
+  width: 250px;
+} */
 
 /*
 ===========================================================
@@ -74,6 +87,10 @@ for any other pallette of choice */
   height: 89px;
 }
 
+.category-info h3 {
+  top: 100px;
+  left: 35%;
+}
 
 /*
 ===========================================================
@@ -82,9 +99,9 @@ for any other pallette of choice */
 */
 
 @media screen and (min-width: 768px) {
-  .category-info h3 {
-    top: 0;
-    left: 140px;
+  .logo-img img {
+    max-width: 50px;
+    max-height: 50px;
   }
  } 
 
