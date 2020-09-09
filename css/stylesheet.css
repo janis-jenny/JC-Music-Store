@@ -141,7 +141,7 @@ for any other pallette of choice */
 }
 
 .toolbar {
-  background-color: var(--color4)
+  background-color: var(--color4);
 }
 
 /*
@@ -170,6 +170,7 @@ for any other pallette of choice */
     height: 16rem;
   }
 }
+
 @media screen and (min-width: 768px) {
   .logo-img img {
     max-width: 50px;
