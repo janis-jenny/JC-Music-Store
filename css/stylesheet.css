@@ -116,6 +116,24 @@ for any other pallette of choice */
   height: 89px;
 }
 
+.brands {
+  background-color: #efefef;
+}
+
+/*
+===========================================================
+                     FOOTER
+ ==========================================================
+*/
+
+.top-footer, 
+.bottom-footer {
+  background-color: var(--color1);
+}
+
+.fmenu *+* {
+  color: var(--color5)
+}
 /*
 ===========================================================
                      MEDIA QUERIES
@@ -152,7 +170,7 @@ for any other pallette of choice */
   }
 
   .instrument {
-    height: 12rem;
+    height: 15rem;
   }
 }
 
