@@ -4,7 +4,7 @@
 
 > This project was created as a Capstone project for the HTML/CSS module in the Mircoverse curriculum.
 
-![screenshot](./images/Screeshot.png)
+![screenshot](./images/Screenshot.png)
 
 This is a responsive site for all the screen sizes, that has a search bar in the header of the page, where you can look for your instruments by name and filter the results by different criteria. 
 
