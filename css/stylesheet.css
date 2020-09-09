@@ -16,7 +16,7 @@ for any other pallette of choice */
 
 .main-container {
   background-color: var(--color4);
-} 
+}
 
 /*
 ===========================================================
@@ -27,9 +27,15 @@ for any other pallette of choice */
 .navbar {
   width: 100%;
   height: 70px;
-  background-image: linear-gradient(to top, #3b3a3b, #3b393a, 60%, #3d393a 40%, #585858);
+  background-image: linear-gradient(
+    to top,
+    #3b3a3b,
+    #3b393a,
+    60%,
+    #3d393a 40%,
+    #585858
+  );
   font-size: 0.85rem;
-
 }
 
 .logo-img {
@@ -49,12 +55,6 @@ for any other pallette of choice */
   height: 700px;
 }
 
-/* .searchbox {
-  top: calc(50%-350px);
-  left: calc(50%-512px);
-  width: 250px;
-} */
-
 /*
 ===========================================================
                         HEADER
@@ -62,7 +62,7 @@ for any other pallette of choice */
 */
 
 .logo-name {
-  font-family: 'Balsamiq Sans', cursive;
+  font-family: "Balsamiq Sans", cursive;
 }
 
 .bttn-icon i {
@@ -76,20 +76,44 @@ for any other pallette of choice */
 */
 
 .sale-info {
-  
   height: 300px;
   margin: 0 auto;
   background-color: var(--color2);
 }
 
+.electric-guitars {
+  background-image: url(../images/electric\ guitars.jpg);
+}
+
+.pedals {
+  background-image: url(../images/pedals.jpg);
+}
+
+.acustic-guitars {
+  background-image: url(../images/acustic\ guitars.jpg);
+}
+
+.bass {
+  background-image: url(../images/bass.jpg);
+}
+
+.keyboards {
+  background-image: url(../images/keyboards.jpg);
+}
+
+.drum-kits {
+  background-image: url(../images/drum-kits.jpg);
+}
+
+.instrument {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
 .img-shipping img {
   width: 89px;
   height: 89px;
-}
-
-.category-info h3 {
-  top: 100px;
-  left: 35%;
 }
 
 /*
@@ -98,12 +122,21 @@ for any other pallette of choice */
  ==========================================================
 */
 
+@media screen and (max-width: 768px) {
+  .instrument {
+    height: 16rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .logo-img img {
     max-width: 50px;
     max-height: 50px;
   }
- } 
+
+  .instrument {
+    height: 12rem;
+  }
+}
 
 @media screen and (min-width: 960px) {
   .sale-info p {
@@ -112,12 +145,16 @@ for any other pallette of choice */
 
   .checks {
     margin-left: 12px;
-  } 
+  }
 
   .bttn-learn {
     font-size: 20px;
   }
-} 
+
+  .instrument {
+    height: 12rem;
+  }
+}
 
 
 
