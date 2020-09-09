@@ -8,10 +8,10 @@
 for any other pallette of choice */
 :root {
   --color1: #3b393a;
-  --color2: #888888;
+  --color2: #888;
   --color3: #b13d48;
   --color4: #efefef;
-  --color5: #ffffff;
+  --color5: #fff;
 }
 
 .main-container {
@@ -27,14 +27,7 @@ for any other pallette of choice */
 .navbar {
   width: 100%;
   height: 70px;
-  background-image: linear-gradient(
-    to top,
-    #3b3a3b,
-    #3b393a,
-    60%,
-    #3d393a 40%,
-    #585858
-  );
+  background-image: linear-gradient(to top, #3b3a3b, #3b393a, 60%, #3d393a 40%, #585858);
   font-size: 0.85rem;
 }
 
@@ -63,8 +56,9 @@ for any other pallette of choice */
 }
 
 .searchbox h5 {
-  color: var(--color2)
+  color: var(--color2);
 }
+
 /*
 ===========================================================
                         HEADER
@@ -135,7 +129,7 @@ for any other pallette of choice */
 }
 
 .bg {
-  background-color: var(--color2)
+  background-color: var(--color2);
 }
 
 .block-title {
@@ -156,14 +150,15 @@ for any other pallette of choice */
  ==========================================================
 */
 
-.top-footer, 
+.top-footer,
 .bottom-footer {
   background-color: var(--color1);
 }
 
-.fmenu *+* {
-  color: var(--color5)
+.fmenu * + * {
+  color: var(--color5);
 }
+
 /*
 ===========================================================
                      MEDIA QUERIES
@@ -203,7 +198,3 @@ for any other pallette of choice */
     height: 15rem;
   }
 }
-
-
-
-
