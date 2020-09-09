@@ -141,6 +141,15 @@ for any other pallette of choice */
 .block-title {
   margin-bottom: 5px;
 }
+
+.sort {
+  width: 150px;
+}
+
+.toolbar {
+  background-color: var(--color4)
+}
+
 /*
 ===========================================================
                      FOOTER
