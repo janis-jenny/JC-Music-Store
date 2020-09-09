@@ -10,12 +10,12 @@ for any other pallette of choice */
   --color1: #3b393a;
   --color2: #888888;
   --color3: #b13d48;
-  --color4: #f5f5f5;
+  --color4: #efefef;
   --color5: #ffffff;
 }
 
 .main-container {
-  background-color: var(--color4);
+  background-color: var(--color5);
 }
 
 /*
@@ -55,6 +55,16 @@ for any other pallette of choice */
   height: 700px;
 }
 
+.main-bg-1 {
+  background: url(../images/bg-image-1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 660px;
+}
+
+.searchbox h5 {
+  color: var(--color2)
+}
 /*
 ===========================================================
                         HEADER
@@ -111,15 +121,26 @@ for any other pallette of choice */
   background-origin: content-box;
 }
 
+.shipping {
+  background-color: var(--color4);
+}
+
 .img-shipping img {
   width: 89px;
   height: 89px;
 }
 
 .brands {
-  background-color: #efefef;
+  background-color: var(--color4);
 }
 
+.bg {
+  background-color: var(--color2)
+}
+
+.block-title {
+  margin-bottom: 5px;
+}
 /*
 ===========================================================
                      FOOTER
