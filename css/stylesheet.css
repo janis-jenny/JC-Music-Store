@@ -4,18 +4,17 @@
  ==========================================================
 */
 
-/* In this section we are setting the color pallette for the entire page so it can be easyly changed
-for any other pallette of choice */
 :root {
   --color1: #3b393a;
   --color2: #888;
-  --color3: #b13d48;
+  --color3: #d35266;
   --color4: #efefef;
   --color5: #fff;
+
 }
 
 .main-container {
-  background-color: var(--color5);
+  background-color: var(--color4);
 }
 
 /*
@@ -42,14 +41,16 @@ for any other pallette of choice */
 }
 
 .main-bg {
-  background: url(../images/bg-image.jpg) no-repeat;
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
+    url(../images/bg-image.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   height: 700px;
 }
 
 .main-bg-1 {
-  background: url(../images/bg-image-1.jpg) no-repeat;
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
+    url(../images/bg-image-1.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   height: 660px;
@@ -66,7 +67,7 @@ for any other pallette of choice */
 */
 
 .logo-name {
-  font-family: "Balsamiq Sans", cursive;
+  font-family: "Gotham", cursive;
 }
 
 .bttn-icon i {
@@ -79,10 +80,19 @@ for any other pallette of choice */
  ==========================================================
 */
 
+.bg-white {
+  background-color: var(--color5)
+}
+
 .sale-info {
   height: 300px;
   margin: 0 auto;
-  background-color: var(--color2);
+  background-color: var(--color3);
+}
+
+.btn-color {
+  background-color: var(--color2)
+ 
 }
 
 .electric-guitars {
