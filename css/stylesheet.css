@@ -61,7 +61,7 @@
 }
 
 .logo-img:hover {
- transform: rotateY(180deg);
+ transform: rotateY(360deg);
 }
 
 .logo-img img {
@@ -70,8 +70,7 @@
 }
 
 .link:hover {
-  color: var(--color3);
-  transform: scaleY(1.1);
+  background-color: var(--color3);
 }
 
 /*
@@ -174,18 +173,23 @@
   height: auto;
 }
 
+.bottom-section .slide {
+  display: none;
+}
+
 .swipe {
-  border: 1px var(--color5) solid;
+  border: 1px var(--color2) solid;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  padding: 12px;
-  margin-top: 50px;
-  color: var(--color3)
+  padding: 4px;
+  padding-left: 8px;
+  color: var(--color3);
+  background-color: var(--color4); 
 }
 
 .swipe:hover {
-  background-color: var(--color5);
+  background-color: var(--color2);
   color: var(--color3);
 }
 
@@ -266,8 +270,8 @@
     height: 12rem;
   }
 
-  .slide {
-    display: 
+  .bottom-section .slide {
+    display: flex;
   }
 }
 
