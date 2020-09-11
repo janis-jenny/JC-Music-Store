@@ -17,9 +17,33 @@
   background-color: var(--color4);
 }
 
+.bg-color1 {
+  background-color: var(--color1);
+}
+
+.bg-color2 {
+  background-color: var(--color2);
+}
+
+.bg-color3 {
+  background-color: var(--color3);
+}
+
+.bg-color4 {
+  background-color: var(--color4);
+}
+
+.bg-color5 {
+  background-color: var(--color5);
+}
+
+.flex {
+  flex-direction: column;
+}
+
 /*
 ===========================================================
-                       NAVABAR
+                       NAVBAR
  ==========================================================
 */
 
@@ -33,12 +57,28 @@
 .logo-img {
   width: 60px;
   height: 60px;
+  transition: 0.6s;
+}
+
+.logo-img:hover {
+ transform: rotateY(180deg);
 }
 
 .logo-img img {
   width: 35px;
   height: 35px;
 }
+
+.link:hover {
+  color: var(--color3);
+  transform: scaleY(1.1);
+}
+
+/*
+===========================================================
+                        HEADER
+ ==========================================================
+*/
 
 .main-bg {
   background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
@@ -58,16 +98,6 @@
 
 .searchbox h5 {
   color: var(--color2);
-}
-
-/*
-===========================================================
-                        HEADER
- ==========================================================
-*/
-
-.logo-name {
-  font-family: "Gotham", cursive;
 }
 
 .bttn-icon i {
@@ -91,32 +121,37 @@
 }
 
 .btn-color {
-  background-color: var(--color2)
- 
+  background-color: var(--color2);
 }
 
 .electric-guitars {
-  background-image: url(../images/electric\ guitars.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
+    url(../images/electric\ guitars.jpg);
 }
 
 .pedals {
-  background-image: url(../images/pedals.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
+    url(../images/pedals.jpg);
 }
 
 .acustic-guitars {
-  background-image: url(../images/acustic\ guitars.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
+    url(../images/acustic\ guitars.jpg);
 }
 
 .bass {
-  background-image: url(../images/bass.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
+    url(../images/bass.jpg);
 }
 
 .keyboards {
-  background-image: url(../images/keyboards.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
+    url(../images/keyboards.jpg);
 }
 
 .drum-kits {
-  background-image: url(../images/drum-kits.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
+    url(../images/drum-kits.jpg);
 }
 
 .instrument {
@@ -132,6 +167,29 @@
 .img-shipping img {
   width: 89px;
   height: 89px;
+}
+
+.ad-image {
+  width: 220px;
+  height: auto;
+}
+
+.swipe {
+  border: 1px var(--color5) solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 12px;
+  margin-top: 50px;
+  color: var(--color3)
+}
+
+.swipe:hover {
+  background-color: var(--color5);
+  color: var(--color3)
+}
+.tittle {
+  color: var(--color2)
 }
 
 .brands {
@@ -179,6 +237,10 @@
   .instrument {
     height: 16rem;
   }
+
+  .slide {
+    display: none
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -189,6 +251,10 @@
 
   .instrument {
     height: 12rem;
+  }
+
+  .slide {
+    display: none
   }
 }
 
