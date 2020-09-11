@@ -13,6 +13,16 @@
 
 }
 
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("Gotham-Bold.otf"); 
+}
+
+/* @font-face {
+  font-family: "gotham-rounded-light";
+  src: url("gotham-rounded-light.otf"); 
+} */
+
 .main-container {
   background-color: var(--color4);
 }
@@ -109,10 +119,6 @@
  ==========================================================
 */
 
-.bg-white {
-  background-color: var(--color5)
-}
-
 .sale-info {
   height: 300px;
   margin: 0 auto;
@@ -157,10 +163,6 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-origin: content-box;
-}
-
-.shipping {
-  background-color: var(--color4);
 }
 
 .img-shipping img {
@@ -234,11 +236,6 @@
                      FOOTER
  ==========================================================
 */
-
-.top-footer,
-.bottom-footer {
-  background-color: var(--color1);
-}
 
 .fmenu * + * {
   color: var(--color5);
