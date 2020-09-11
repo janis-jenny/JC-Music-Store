@@ -10,7 +10,6 @@
   --color3: #d35266;
   --color4: #efefef;
   --color5: #fff;
-
 }
 
 @font-face {
@@ -18,10 +17,10 @@
   src: url("Gotham-Bold.otf"); 
 }
 
-/* @font-face {
+@font-face {
   font-family: "gotham-rounded-light";
-  src: url("gotham-rounded-light.otf"); 
-} */
+  src: url("gotham-rounded-light.otf");
+}
 
 .main-container {
   background-color: var(--color4);
@@ -71,7 +70,7 @@
 }
 
 .logo-img:hover {
- transform: rotateY(360deg);
+  transform: rotateY(360deg);
 }
 
 .logo-img img {
@@ -90,16 +89,14 @@
 */
 
 .main-bg {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
-    url(../images/bg-image.jpg) no-repeat;
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/bg-image.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   height: 700px;
 }
 
 .main-bg-1 {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
-    url(../images/bg-image-1.jpg) no-repeat;
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/bg-image-1.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   height: 660px;
@@ -130,33 +127,27 @@
 }
 
 .electric-guitars {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
-    url(../images/electric\ guitars.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/electric\ guitars.jpg);
 }
 
 .pedals {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
-    url(../images/pedals.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/pedals.jpg);
 }
 
 .acustic-guitars {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
-    url(../images/acustic\ guitars.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/acustic\ guitars.jpg);
 }
 
 .bass {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
-    url(../images/bass.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/bass.jpg);
 }
 
 .keyboards {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
-    url(../images/keyboards.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/keyboards.jpg);
 }
 
 .drum-kits {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a),
-    url(../images/drum-kits.jpg);
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/drum-kits.jpg);
 }
 
 .instrument {
@@ -187,7 +178,7 @@
   padding: 4px;
   padding-left: 8px;
   color: var(--color3);
-  background-color: var(--color4); 
+  background-color: var(--color4);
 }
 
 .swipe:hover {
