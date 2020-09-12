@@ -8,15 +8,18 @@
 
 This is a responsive site for all the screen sizes, that has a search bar in the header of the page, where you can look for your instruments by name and filter the results by different criteria. 
 
+
 ## Built With
 
 - HTML
 - CSS
 - Bootstrap
+- Flexbox
+- Media queries
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/janis-jenny/JC-Music-Store/JCStore/index.html)
+[Live Demo](https://raw.githack.com/janis-jenny/JC-Music-Store/JCStore/index.html)
 
 ## Author
 
@@ -30,11 +33,19 @@ This is a responsive site for all the screen sizes, that has a search bar in the
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/janis-jenny/The-Next-Web-Clone-Page/issues).
+Feel free to check the [issues page](https://github.com/janis-jenny/JC-Music-Store/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+- [Font Awesome Icons](https://fontawesome.com)
+- [Unsplash](https://unsplash.com)
+- [Flaticon](https://www.flaticon.com/)
+- Microverse Team 140 (The Cupids)
 
 ## 📝 License
 
