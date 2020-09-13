@@ -116,38 +116,40 @@
  ==========================================================
 */
 
-.sale-info {
-  height: 300px;
-  margin: 0 auto;
-  background-color: var(--color3);
-}
-
 .btn-color {
   background-color: var(--color2);
 }
 
-.electric-guitars {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/electric\ guitars.jpg);
+.card-1 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-1.jpg);
 }
 
-.pedals {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/pedals.jpg);
+.card-2 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-2.jpg);
 }
 
-.acustic-guitars {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/acustic\ guitars.jpg);
+.card-3 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-3.jpg);
 }
 
-.bass {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/bass.jpg);
+.card-4 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-4.jpg);
 }
 
-.keyboards {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/keyboards.jpg);
+.card-5  {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-5.jpg);
 }
 
-.drum-kits {
-  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/drum-kits.jpg);
+.card-6 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-6.jpg);
+}
+
+.card-7  {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-7.jpg);
+}
+
+.card-8 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-8.jpg);
 }
 
 .instrument {
@@ -156,18 +158,9 @@
   background-origin: content-box;
 }
 
-.img-shipping img {
-  width: 89px;
-  height: 89px;
-}
-
 .ad-image {
   width: 220px;
   height: auto;
-}
-
-.bottom-section .slide {
-  display: none;
 }
 
 .swipe {
@@ -240,10 +233,14 @@
 
 @media screen and (max-width: 768px) {
   .instrument {
-    height: 16rem;
+    height: 12rem;
   }
 
   .sort {
+    display: none;
+  }
+
+  .main .slide {
     display: none;
   }
 }
@@ -255,28 +252,12 @@
   }
 
   .instrument {
-    height: 12rem;
-  }
-
-  .bottom-section .slide {
-    display: flex;
+    height: 11rem;
   }
 }
 
 @media screen and (min-width: 960px) {
-  .sale-info p {
-    font-size: 20px;
-  }
-
-  .checks {
-    margin-left: 12px;
-  }
-
-  .bttn-learn {
-    font-size: 20px;
-  }
-
   .instrument {
-    height: 15rem;
+    height: 10rem;
   }
 }
