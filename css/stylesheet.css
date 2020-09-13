@@ -136,7 +136,7 @@
   background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-4.jpg);
 }
 
-.card-5  {
+.card-5 {
   background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-5.jpg);
 }
 
@@ -144,7 +144,7 @@
   background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-6.jpg);
 }
 
-.card-7  {
+.card-7 {
   background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-7.jpg);
 }
 
@@ -259,5 +259,10 @@
 @media screen and (min-width: 960px) {
   .instrument {
     height: 10rem;
+  }
+
+  .product-img {
+    height: 18rem;
+    width: 20rem;
   }
 }
