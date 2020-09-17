@@ -1,0 +1,268 @@
+/*
+===========================================================
+                       GENERAL STYLES
+ ==========================================================
+*/
+
+:root {
+  --color1: #3b393a;
+  --color2: #888;
+  --color3: #d35266;
+  --color4: #efefef;
+  --color5: #fff;
+}
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: "gotham-rounded-light";
+  src: url("gotham-rounded-light.otf");
+}
+
+.main-container {
+  background-color: var(--color4);
+}
+
+.bg-color1 {
+  background-color: var(--color1);
+}
+
+.bg-color2 {
+  background-color: var(--color2);
+}
+
+.bg-color3 {
+  background-color: var(--color3);
+}
+
+.bg-color4 {
+  background-color: var(--color4);
+}
+
+.bg-color5 {
+  background-color: var(--color5);
+}
+
+.flex {
+  flex-direction: column;
+}
+
+/*
+===========================================================
+                       NAVBAR
+ ==========================================================
+*/
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-image: linear-gradient(to top, #3b3a3b, #3b393a, 60%, #3d393a 40%, #585858);
+  font-size: 0.85rem;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+  transition: 0.6s;
+}
+
+.logo-img:hover {
+  transform: rotateY(360deg);
+}
+
+.logo-img img {
+  width: 35px;
+  height: 35px;
+}
+
+.link:hover {
+  background-color: var(--color3);
+}
+
+/*
+===========================================================
+                        HEADER
+ ==========================================================
+*/
+
+.main-bg {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/bg-image.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 700px;
+}
+
+.main-bg-1 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/bg-image-1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 660px;
+}
+
+.searchbox h5 {
+  color: var(--color2);
+}
+
+.bttn-icon i {
+  color: var(--color2);
+}
+
+/*
+===========================================================
+                     Main
+ ==========================================================
+*/
+
+.btn-color {
+  background-color: var(--color2);
+}
+
+.card-1 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-1.jpg);
+}
+
+.card-2 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-2.jpg);
+}
+
+.card-3 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-3.jpg);
+}
+
+.card-4 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-4.jpg);
+}
+
+.card-5 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-5.jpg);
+}
+
+.card-6 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-6.jpg);
+}
+
+.card-7 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-7.jpg);
+}
+
+.card-8 {
+  background: radial-gradient(farthest-corner at 80% 30%, rgba(230, 230, 230, 0.09), #3b393a), url(../images/card-8.jpg);
+}
+
+.instrument {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+.ad-image {
+  width: 220px;
+  height: auto;
+}
+
+.swipe {
+  border: 1px var(--color2) solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+  padding-left: 8px;
+  color: var(--color3);
+  background-color: var(--color4);
+}
+
+.swipe:hover {
+  background-color: var(--color2);
+  color: var(--color3);
+}
+
+.tittle {
+  color: var(--color2);
+}
+
+.brands {
+  background-color: var(--color4);
+}
+
+.block-title {
+  margin-bottom: 5px;
+}
+
+.sort {
+  width: 150px;
+}
+
+.toolbar {
+  background-color: var(--color4);
+}
+
+.btn-add {
+  border: 1px solid var(--color2);
+  padding: 0.5em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.2rem;
+  width: 1.5rem;
+  height: 1.4rem;
+  border-radius: 4px;
+  color: var(--color2);
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+/*
+===========================================================
+                     FOOTER
+ ==========================================================
+*/
+
+.fmenu * + * {
+  color: var(--color5);
+}
+
+/*
+===========================================================
+                     MEDIA QUERIES
+ ==========================================================
+*/
+
+@media screen and (max-width: 768px) {
+  .instrument {
+    height: 12rem;
+  }
+
+  .sort {
+    display: none;
+  }
+
+  .main .slide {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-img img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .instrument {
+    height: 11rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .instrument {
+    height: 10rem;
+  }
+
+  .product-img {
+    height: 18rem;
+    width: 20rem;
+  }
+}
